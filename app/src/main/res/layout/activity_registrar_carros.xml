@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_registrar_carros"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.josesanjuanelo.tallerlistview.registrarCarros"
+    tools:layout_editor_absoluteY="81dp"
+    tools:layout_editor_absoluteX="0dp">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="12dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="24dp"
+        android:layout_toEndOf="@+id/textView2"
+        android:layout_toRightOf="@+id/textView2"
+        android:text="@string/registro"
+        android:textAlignment="center"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/txtPlaca"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="21dp"
+        android:layout_marginStart="21dp"
+        android:layout_marginTop="47dp"
+        android:ems="10"
+        android:hint="@string/placa"
+        android:inputType="textPersonName"
+        android:layout_below="@+id/textView4"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Spinner
+        android:id="@+id/spnMarca"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView"
+        android:layout_alignLeft="@+id/textView"
+        android:layout_alignStart="@+id/textView"
+        android:layout_marginTop="17dp"
+        android:layout_alignRight="@+id/txtPlaca"
+        android:layout_alignEnd="@+id/txtPlaca" />
+
+    <Spinner
+        android:id="@+id/spnModelo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView2"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_alignStart="@+id/textView2"
+        android:layout_marginTop="17dp"
+        android:layout_alignRight="@+id/spnMarca"
+        android:layout_alignEnd="@+id/spnMarca" />
+
+    <Spinner
+        android:id="@+id/spnColor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView3"
+        android:layout_alignLeft="@+id/textView3"
+        android:layout_alignStart="@+id/textView3"
+        android:layout_marginTop="18dp"
+        android:layout_alignRight="@+id/spnModelo"
+        android:layout_alignEnd="@+id/spnModelo" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/txtPlaca"
+        android:layout_alignStart="@+id/txtPlaca"
+        android:layout_below="@+id/txtPlaca"
+        android:layout_marginTop="22dp"
+        android:text="@string/marca"
+        android:textSize="22sp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/spnMarca"
+        android:layout_alignStart="@+id/spnMarca"
+        android:layout_below="@+id/spnMarca"
+        android:layout_marginTop="11dp"
+        android:text="@string/modelo"
+        android:textSize="22sp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="17dp"
+        android:text="@string/color"
+        android:textSize="22sp"
+        android:layout_below="@+id/spnModelo"
+        android:layout_alignLeft="@+id/spnModelo"
+        android:layout_alignStart="@+id/spnModelo" />
+
+    <EditText
+        android:id="@+id/txtPrecio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btnRegistrar"
+        android:layout_alignLeft="@+id/spnColor"
+        android:layout_alignStart="@+id/spnColor"
+        android:ems="10"
+        android:hint="@string/precio"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/btnRegistrar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView4"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/textView4"
+        android:layout_marginBottom="15dp"
+        android:layout_marginLeft="11dp"
+        android:layout_marginStart="11dp"
+        android:onClick="Registro"
+        android:text="@string/guardar" />
+
+    <Button
+        android:id="@+id/btnBorrar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/btnRegistrar"
+        android:layout_alignBottom="@+id/btnRegistrar"
+        android:layout_toEndOf="@+id/txtPrecio"
+        android:layout_toRightOf="@+id/txtPrecio"
+        android:onClick="limpiar"
+        android:text="@string/borrar" />
+
+</RelativeLayout>

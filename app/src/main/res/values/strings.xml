@@ -1,0 +1,88 @@
+<resources>
+    <string name="app_name">TallerListview</string>
+    <string name="registro">Registro de Carros</string>
+    <string name="placa">Placa</string>
+    <string name="marca">Marca</string>
+    <string name="modelo">Modelo</string>
+    <string name="color">Color</string>
+    <string name="precio">Precio</string>
+    <string name="toyota">Toyota</string>
+    <string name="chevrolet">Chevrolet</string>
+    <string name="mazda">Mazda</string>
+    <string name="lambgn">Lamborghini</string>
+    <string name="ferrari">Ferarri</string>
+    <string name="kia">Kia</string>
+    <string name="a1">2007</string>
+    <string name="a2">2008</string>
+    <string name="a3">2009</string>
+    <string name="a4">2010</string>
+    <string name="a5">2011</string>
+    <string name="a6">2012</string>
+    <string name="a7">2013</string>
+    <string name="a8">2014</string>
+    <string name="a9">2015</string>
+    <string name="a10">2016</string>
+    <string name="a11">2017</string>
+    <string name="amarillo">Amarillo</string>
+    <string name="mensaje">Se ha guardado correctamente el registro</string>
+    <string name="cc">La cantidad de carros registrados es</string>
+    <string name="azul">Azul</string>
+    <string name="rojo">Rojo</string>
+    <string name="negro">Negro</string>
+    <string name="verde">Verde</string>
+    <string name="blanco">Blanco</string>
+    <string name="morado">Morado</string>
+    <string name="error_1">Por favor digite la placa</string>
+    <string name="error_2">Por favor digite el precio</string>
+    <string name="registrarC">Registrar Carros</string>
+    <string name="listar">Listar Carros</string>
+    <string name="reportes">Reportes</string>
+    <string name="guardar">Guardar</string>
+    <string name="borrar">Borrar</string>
+    <string name="cantidadCar">No. de Carros Registrados</string>
+    <string name="datosCar">Datos del Carro mas caro registrado</string>
+    <string name="datosCar2">Datos del Carro mas economico registrado</string>
+    <string-array name="reporte">
+        <item>@string/cantidadCar</item>
+        <item>@string/datosCar</item>
+        <item>@string/datosCar2</item>
+    </string-array>
+    <string-array name="opciones">
+        <item>@string/registrarC</item>
+        <item>@string/listar</item>
+        <item>@string/reportes</item>
+    </string-array>
+    <string-array name="marca">
+        <item>@string/toyota</item>
+        <item>@string/chevrolet</item>
+        <item>@string/kia</item>
+        <item>@string/ferrari</item>
+        <item>@string/lambgn</item>
+        <item>@string/mazda</item>
+    </string-array>
+    <string-array name="modelo">
+        <item>@string/a1</item>
+        <item>@string/a2</item>
+        <item>@string/a3</item>
+        <item>@string/a4</item>
+        <item>@string/a5</item>
+        <item>@string/a6</item>
+        <item>@string/a7</item>
+        <item>@string/a8</item>
+        <item>@string/a9</item>
+        <item>@string/a10</item>
+        <item>@string/a11</item>
+    </string-array>
+    <string-array name="color">
+        <item>@string/amarillo</item>
+        <item>@string/azul</item>
+        <item>@string/rojo</item>
+        <item>@string/negro</item>
+        <item>@string/morado</item>
+        <item>@string/blanco</item>
+        <item>@string/verde</item>
+
+    </string-array>
+    <string name="title_activity_carro_mas_caro">carroMasCaro</string>
+    <string name="no">No.</string>
+</resources>
